@@ -9,7 +9,8 @@ To write a python program for creating File Transfer using TCP Sockets Links
 5. In the client side receive the file from server and then write the content into it.
 ## PROGRAM
 ### client:
-```import socket 
+```
+import socket 
 s = socket.socket() 
 host = socket.gethostname() 
 port = 60000 
